@@ -150,4 +150,44 @@ html {
     max-width: 100%;
     overflow: hidden;
     padding: 5px;
+
+}
+@media only screen and (max-width: 600px) {
+    .TODO {
+        width: 90%;
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    .input {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .Myinput {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .input img {
+        width: 40px;
+    }
+
+    .list-container li {
+        font-size: 15px;
+        padding: 10px 10px 10px 40px;
+    }
+
+    .list-container li::before {
+        left: 5px;
+        top: 12px;
+    }
+
+    .todo_icon {
+        width: 30px;
+        margin-left: 10px;
+        position: static;
+        top: auto;
+        align-self: flex-start;
+    }
 }
